@@ -3,14 +3,12 @@ import { BarChart } from '@ncr-design-system/data-viz'
 import { Stack } from '@mui/material'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Help: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Stack>
-        <BarChart hideAxes data={[1, 2, 3] as any} />
-      </Stack>
+      help
     </div>
   )
 }
 
-export default Home
+export default Help
